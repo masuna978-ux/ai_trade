@@ -22,7 +22,7 @@ def get_current_price():
     return 0.0
 
 current_price = get_current_price()
-st.metric(label=f"Giá hiện tại ({SYMBOL})", value=f"${current_price}")
+st.metric(label=f"Giá thực tế hiện tại ({SYMBOL})", value=f"${current_price}")
 
 st.markdown("---")
 st.subheader("📋 Nhật ký giao dịch & Bài học rút kinh nghiệm")
